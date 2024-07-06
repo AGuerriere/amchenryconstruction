@@ -14,8 +14,8 @@ export default function Home() {
                 <div className="bg-gradient-to-r from-cyan-800 to-teal-600 justify-start items-center gap-2.5 flex w-fit p-3">
                   <div className="text-white text-2xl font-extrabold tracking-wide ">Welcome to <span className="text-gray-900 text-2xl font-extrabold tracking-wide">A McHenry Construction </span></div>
                 </div>
-                <h1 className='pt-7 text-5xl font-bold xl:text-7xl md:w-4/5 lg:w-3/5'>
-                    Build Dreams,<span className="block">One Brick at a Time</span>
+                <h1 className='pt-7 text-5xl leading-relaxed font-bold xl:text-7xl md:w-4/5 lg:w-3/5'>
+                    Build Dreams,<span className="block leading-relaxed">One Brick at a Time</span>
                 </h1>
               </div>
             </div>

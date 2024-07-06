@@ -29,12 +29,12 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl pl-2 pr-2">
+      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl">
         <div className="">
           <Link
             href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               width={163}
               height={80}
               alt="A McHenry Construction logo"
@@ -52,7 +52,7 @@ export default function Navbar() {
         <Link
           href="/">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             width={230}
             height={64}
             alt="A McHenry Construction logo"
@@ -75,7 +75,7 @@ export default function Navbar() {
             href="/"
             onClick={() => triggerToggle()}>
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               width={200}
               height={54}
               alt="A McHenry Construction logo"

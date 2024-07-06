@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    images: '/images/logo-bg.jpg',
+    images: '/images/logo.webp',
     title: 'A McHenry Construction',
     description: 'A McHenry Construction, construction company. Building outstanding new developments since 1999',
     url: 'https://amchenryconstruction.com/',

@@ -29,9 +29,9 @@ export default function Home() {
         <div className="w-full max-w-[1600px] items-center justify-centerz`">
           <main>
             {/* About Us Section */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mt-10 mb-10 gap-5">
               <h3 className="md:col-span-2 lg:col-span-1 text-gray-900 text-[40px] font-extrabold leading-[60px] tracking-wide mb-5 overflow-hidden text-ellipsis">About Us</h3>
-                <div>
+                <div className="lg:col-span-2">
                   <p className="mb-5">
                     At A McHenry Construction, we have been transforming visions into reality for over 30  years. Based in the heart of Ballycastle, Northern Ireland, our family-run company, founded  by Alastair McHenry in 1999, continues to uphold a tradition of excellence under the  leadership of his sons, Shane and Mark.
                   </p>
@@ -39,7 +39,7 @@ export default function Home() {
                     We specialise in crafting Luxury Houses, Family  Houses, and bespoke homes, ensuring that every project is completed with the highest quality and finest finishing.
                   </p>
                 </div>
-              <div className="">
+              <div className="lg:col-span-2">
                 <p className="text-teal-600 mb-5">
                   From our humble beginnings, we have grown into a trusted name in the construction industry. Our reputation is built on a commitment to quality, attention to detail, and a passion for  delivering homes that exceed expectations.
                 </p>

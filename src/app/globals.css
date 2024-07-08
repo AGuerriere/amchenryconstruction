@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 
-* {
+div,p {
   color: var(--grey, #73788C);
-
   /* regular text */
   font-size: 18px;
   font-style: normal;
@@ -13,4 +12,69 @@
   line-height: 35px;
   /* 194.444% */
   letter-spacing: 1px;
+}
+
+h1 {
+  color: #000;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #000;
+  font-family: Avenir;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  /* 150% */
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  color: #000;
+  /* SUBT Large */
+  font-family: Avenir;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  /* 166.667% */
+  letter-spacing: 0.5px;
+}
+
+h6 {
+  color: #000;
+  /* SUBT1 Med */
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 166.667% */
+}
+
+@media (max-width: 767px) {
+  div, p {
+    color: var(--grey, #73788C);
+    /* regular text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 194.444% */
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
 }

@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         'header-gradient': 'linear-gradient(180deg, rgba(19, 18, 36, 0.00) 0%, rgba(19, 18, 36, 0.85) 100%)',
+        'green-gradient': 'linear-gradient(90deg, rgba(19, 89, 115, 0.85) 0%, rgba(20, 150, 150, 0.85) 100%)',
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 

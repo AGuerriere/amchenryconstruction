@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+  color: var(--grey, #73788C);
+
+  /* regular text */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  /* 194.444% */
+  letter-spacing: 1px;
+}

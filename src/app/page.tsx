@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -229,7 +230,7 @@ export default function Home() {
                       Call <span className="text-teal-600">Shane</span> at <span className="text-teal-600">07894 401453</span><br />
                       or call <span className="text-teal-600">Mark</span> at <span className="text-teal-600">07894 401453</span>
                     </li>
-                    <li>Alternatively send us an email at <span className="text-teal-600"><a href="mailto:info@amchenryconstruction.com">info@amchenryconstruction.com</a></span></li><br />
+                    <li>Alternatively send us an email at <span className="text-teal-600"><a href="mailto:info@amchenryconstruction.com">info@amchenryconstruction.com</a></span> .</li><br />
                     <li className="mb-3">
                       Our office: <br />
                       6 Dunamallaght Crescent,<br />
@@ -251,6 +252,7 @@ export default function Home() {
           </main>
         </div>
       </div>
+      <Footer />
 
 
     </>

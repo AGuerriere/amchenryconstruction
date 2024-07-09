@@ -2,22 +2,18 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import GradientTitle from "@/components/GradientTitle";
+import Contacts from "@/components/Contacts"
 
 export default function Home() {
   return (
     <>
-      <div className="flex items-center justify-center ml-5 mr-5">
-        <div className="w-full max-w-[1600px] items-center justify-center">
-          <Navbar />
-        </div>
-      </div>
+      <Navbar />
       <header className="text-white min-h-[400px] h-[calc(100vh-100px)] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
         <div className='bg-header-gradient h-full flex'>
           <div className="flex items-center justify-center ml-5 mr-5 w-full">
             <div className='flex flex-col justify-center w-full max-w-[1600px]'>
-              <div className="bg-gradient-to-r from-cyan-800 to-teal-600 justify-start items-center gap-2.5 flex w-fit p-3">
-                <div className="text-white text-2xl font-extrabold tracking-wide ">Welcome to <span className="text-gray-900 text-2xl font-extrabold tracking-wide">A McHenry Construction </span></div>
-              </div>
+              <GradientTitle whiteText="Welcome to " blackText="A. McHenry Construction"/>
               <h1 className='pt-7 md:w-4/5 lg:w-3/5 text-white'>
                 Build Dreams,<br></br>One Brick at a Time
               </h1>
@@ -27,7 +23,7 @@ export default function Home() {
       </header>
 
       <div className="flex items-center justify-center ml-5 mr-5">
-        <div className="w-full max-w-[1600px] items-center justify-centerz`">
+        <div className="w-full max-w-[1600px] items-center justify-center`">
           <main>
             {/* About Us Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mt-10 mb-16 gap-5">
@@ -67,7 +63,7 @@ export default function Home() {
                     src="/images/workers.webp"
                     fill
                     sizes="100%"
-                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    alt="Picture of a house in Ballycastle built by A McHenry Constructions"
                     className="w-auto object-cover z-0"
                   />
                 </div>
@@ -86,7 +82,7 @@ export default function Home() {
                     src="/images/staircase.webp"
                     fill
                     sizes="100%"
-                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    alt="Picture of a house in Ballycastle built by A McHenry Constructions"
                     className="w-auto object-cover z-0"
                   />
                 </div>
@@ -104,7 +100,7 @@ export default function Home() {
                     src="/images/family.webp"
                     fill
                     sizes="100%"
-                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    alt="Picture of a house in Ballycastle built by A McHenry Constructions"
                     className="w-auto object-cover z-0"
                   />
                 </div>
@@ -123,7 +119,7 @@ export default function Home() {
                   src="/images/kitchen.webp"
                   fill
                   sizes="100%"
-                  alt="Picture of a house in Ballycastle built by McHenry Bros"
+                  alt="Picture of a house in Ballycastle built by A McHenry Constructions"
                   className="w-auto object-cover z-0"
                 />
               </div>
@@ -158,7 +154,7 @@ export default function Home() {
                     src="/images/planning.webp"
                     fill
                     sizes="100%"
-                    alt="Picture of a house in Ballycastle built by McHenry Bros"
+                    alt="Picture of a house in Ballycastle built by A McHenry Constructions"
                     className="w-auto object-cover"
                   />
                 </div>
@@ -214,41 +210,7 @@ export default function Home() {
               </div>
             </div>
             {/* Secttion 5 */}
-            <div className="mb-16">
-              <h2 className="md:col-span-2 lg:col-span-1 text-gray-900 tracking-wide mb-5 overflow-hidden text-ellipsis">Our Clients</h2>
-              <div className="flex flex-col lg:flex-row gap-10">
-                <div className="lg:w-1/2">
-                  <h6 className="mb-5">Contact us</h6>
-                  <ul>
-                    <li className="mb-3">
-                      Ready to start building your dream home?
-                    </li>
-                    <li className="mb-3">
-                      Get in touch with us today to discuss your project.
-                    </li>
-                    <li className="mb-3">
-                      Call <span className="text-teal-600">Shane</span> at <span className="text-teal-600">07894 401453</span><br />
-                      or call <span className="text-teal-600">Mark</span> at <span className="text-teal-600">07894 401453</span>
-                    </li>
-                    <li>Alternatively send us an email at <span className="text-teal-600"><a href="mailto:info@amchenryconstruction.com">info@amchenryconstruction.com</a></span> .</li><br />
-                    <li className="mb-3">
-                      Our office: <br />
-                      6 Dunamallaght Crescent,<br />
-                      Ballycastle<br />
-                      BT54 6PP<br />
-                    </li>
-                  </ul>
-                </div>
-                <div className="w-full lg:w-1/2">
-                  <iframe
-                    className="w-full h-full min-h-[300px] border-none"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.1920094619345!2d-6.239991522618915!3d55.19740187288378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861d3e0481c799d%3A0xaf3939874646fa50!2sA%20McHenry%20Construction!5e0!3m2!1sen!2sit!4v1720470747907!5m2!1sen!2sit"
-                    allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
+            <Contacts />
           </main>
         </div>
       </div>

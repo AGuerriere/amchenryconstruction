@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <Header white_text="About" black_text="Us" img="header" />
+      <Header white_text="About" black_text="Us" img="warehouse" />
       <div className="flex items-center justify-center ml-5 mr-5">
         <div className="w-full max-w-[1600px] items-center justify-center`">
           <main>

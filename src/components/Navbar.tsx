@@ -46,7 +46,7 @@ export default function Navbar() {
             <Link href="/" className="active:text-black">Home</Link>
             <Link href="/about" className="active:text-black">About Us</Link>
             <Link href="/developments" className="active:text-black">Developments</Link>
-            <Link href="/contacts" className="active:text-black">Contact Us</Link>
+            <Link href="/contact-us" className="active:text-black">Contact Us</Link>
           </nav>
 
           {/* Mobile navbar closed */}
@@ -96,7 +96,7 @@ export default function Navbar() {
               <Link href="/" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Home</Link>
               <Link href="/about" className="active:text-black text-2xl" onClick={() => triggerToggle()}>About Us</Link>
               <Link href="/developments" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Developments</Link>
-              <Link href="/contacts" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Contact us</Link>
+              <Link href="/contact-us" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Contact us</Link>
             </div>
           </nav>
         </div>

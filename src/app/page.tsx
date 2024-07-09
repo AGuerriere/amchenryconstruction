@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import GradientTitle from "@/components/GradientTitle";
-import Contacts from "@/components/Contacts"
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <div className='bg-header-gradient h-full flex'>
           <div className="flex items-center justify-center ml-5 mr-5 w-full">
             <div className='flex flex-col justify-center w-full max-w-[1600px]'>
-              <GradientTitle whiteText="Welcome to " blackText="A. McHenry Construction"/>
+              <GradientTitle whiteText="Welcome to " blackText="A. McHenry Construction" />
               <h1 className='pt-7 md:w-4/5 lg:w-3/5 text-white'>
                 Build Dreams,<br></br>One Brick at a Time
               </h1>

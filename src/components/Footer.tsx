@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -33,10 +34,10 @@ export default function Footer() {
         </div>
         <div className="flex md:justify-end md:w-1/2">
           <ul className="md:w-[250px]">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Developments</li>
-            <li>Contact Us</li>
+            <Link href="/"><li>Home</li></Link>
+            <Link href="/about"><li>About Us</li></Link>
+            <Link href="/developments"><li>Developments</li></Link>
+            <Link href="/contacts"><li>Contact Us</li></Link>
           </ul>
         </div>
       </div>

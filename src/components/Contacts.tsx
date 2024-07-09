@@ -4,7 +4,6 @@ export default function Contacts() {
   return (
     <>
       <div className="mb-16">
-        <h2 className="md:col-span-2 lg:col-span-1 text-gray-900 tracking-wide mb-5 overflow-hidden text-ellipsis">Our Clients</h2>
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="lg:w-1/2">
             <h6 className="mb-5">Contact us</h6>
@@ -25,6 +24,7 @@ export default function Contacts() {
                 6 Dunamallaght Crescent,<br />
                 Ballycastle<br />
                 BT54 6PP<br />
+                APPOINTMENTS ONLY
               </li>
             </ul>
           </div>

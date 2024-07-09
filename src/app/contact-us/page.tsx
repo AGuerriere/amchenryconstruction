@@ -16,6 +16,7 @@ export default function ContactUs() {
                 Contact Us for <span className="text-teal-600">Bespoke Construction</span> Services
               </h2>
             </div>
+            <p className="w-full md:w-1/2 pb-5">Whether you’re looking to build a custom home from the ground up or renovate an existing property, our expert team is here to bring your vision to life. Contact us today to start the journey towards creating your perfect living space.</p>
             <Contacts />
           </main>
         </div>

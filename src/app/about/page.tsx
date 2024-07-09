@@ -35,7 +35,7 @@ export default function About() {
             <div className="w-full bg-[url('/images/colorful-houses.webp')] bg-cover bg-no-repeat bg-center min-h-fit mb-10">
               <div className="bg-green-gradient h-full min-h-[430px] p-10 flex flex-col justify-center items-center text-center">
                 <h2 className="text-white mb-5">Our <span className="text-gray-900">Team</span></h2>
-                <p className="text-white mb-5">Our team is comprised of skilled professionals who are passionate about what they do. From architects and designers to builders and project managers, everyone at A McHenry  Construction shares a common goal: to deliver exceptional homes that our clients will love for years to come. We believe in fostering a collaborative environment where every team  member's expertise contributes to the success of each project.</p>
+                <p className="text-white mb-5">Our team is comprised of skilled professionals who are passionate about what they do. From architects and designers to builders and project managers, everyone at A McHenry  Construction shares a common goal: to deliver exceptional homes that our clients will love for years to come. We believe in fostering a collaborative environment where every team  member&apos;s expertise contributes to the success of each project.</p>
 
               </div>
             </div>

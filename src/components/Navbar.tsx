@@ -90,11 +90,11 @@ export default function Navbar() {
           className="fixed text-teal-700 top-12 right-7"
           onClick={() => triggerToggle()}
         />
-        <div className="flex flex-col h-2/5 items-center justify-between">
-          <Link href="/" className="active:text-black" onClick={() => triggerToggle()}>Home</Link>
-          <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
-          <Link href="/developments" className="active:text-black" onClick={() => triggerToggle()}>Developments</Link>
-          <Link href="/contacts" className="active:text-black" onClick={() => triggerToggle()}>Contact us</Link>
+        <div className="flex flex-col h-2/5 items-center justify-between mt-10">
+          <Link href="/" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Home</Link>
+          <Link href="/about" className="active:text-black text-2xl" onClick={() => triggerToggle()}>About Us</Link>
+          <Link href="/developments" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Developments</Link>
+          <Link href="/contacts" className="active:text-black text-2xl" onClick={() => triggerToggle()}>Contact us</Link>
         </div>
       </nav>
     </>

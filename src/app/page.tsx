@@ -167,7 +167,7 @@ export default function Home() {
                   <ul className="list-disc list-inside">
                     <li className="mb-3">
                       <span className="text-xl tracking-wider leading-7 text-gray-900">
-                        First-time Home Buyers:
+                        First-time Home Buyers:&nbsp;
                       </span>
                       <span>
                         Couples starting their journey together and looking for a beautiful,
@@ -176,7 +176,7 @@ export default function Home() {
                     </li>
                     <li className="mb-3">
                       <span className="text-xl tracking-wider leading-7 text-gray-900">
-                        Upsizing Couples:
+                        Upsizing Couples:&nbsp;
                       </span>
                       <span>
                         Families needing more space and seeking a high-end living
@@ -185,7 +185,7 @@ export default function Home() {
                     </li>
                     <li className="mb-3">
                       <span className="text-xl tracking-wider leading-7 text-gray-900">
-                        Holiday Makers:
+                        Holiday Makers:&nbsp;
                       </span>
                       <span>
                         Individuals and families desiring a second home along the stunning
@@ -194,7 +194,7 @@ export default function Home() {
                     </li>
                     <li className="mb-3">
                       <span className="text-xl tracking-wider leading-7 text-gray-900">
-                        Retirees:
+                        Retirees:&nbsp;
                       </span>
                       <span>
                         Those looking to downsize or upsize, finding the perfect place to

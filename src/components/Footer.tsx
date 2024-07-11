@@ -14,22 +14,22 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
-          <div className="flex flex-row gap-8">
-            <div>
-              <Image src="/images/nhbc.webp" alt="NHBC" width={100} height={50} />
-            </div>
-            <div>
+          <div className="flex flex-row gap-8 items-center">
+            <div className="flex justify-center items-center">
               <Image
                 src="/images/logo-white.webp"
-                width={163}
-                height={80}
+                width={200}
+                height={120}
                 alt="A McHenry Construction logo"
               />
             </div>
+            <div>
+              <Image src="/images/nhbc.webp" alt="NHBC" width={50} height={30} />
+            </div>
           </div>
           <div className="flex w-[80px] justify-between mt-5 mb-5">
-            <Image src="/images/facebook.webp" alt="NHBC" width={20} height={20}/>
             <Image src="/images/instagram.webp" alt="NHBC" width={20} height={20} />
+            <Image src="/images/facebook.webp" alt="NHBC" width={20} height={20} />
           </div>
         </div>
         <div className="flex md:justify-end md:w-1/2">

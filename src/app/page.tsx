@@ -220,7 +220,7 @@ export default function Home() {
               <div className="bg-green-gradient h-full p-10 flex flex-col justify-center items-center">
                 <h2 className="text-white mb-5">Our <span className="text-gray-900">Portfolio</span></h2>
                 <p className="text-white mb-5">Take a look at some of our completed projects to see the quality and craftsmanship that  define A McHenry Construction.</p>
-                <Image src="/images/button.svg" alt="link icon" width={50} height={50} />
+                <a href="https://www.amchenryconstruction.com/developments#" className="self-center mt-auto"><Image src="/images/button.svg" alt="link icon" width={50} height={50} /></a>
               </div>
             </div>
             {/* Secttion 5 */}

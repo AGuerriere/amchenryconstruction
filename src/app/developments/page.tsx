@@ -52,7 +52,7 @@ export default function Developments() {
             </div>
  */}
             <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2 mt-10">
-              <h2>
+              <h2 id="family-homes">
                 Family<span className="text-teal-600"> Homes</span>
               </h2>
               <p className="md:p-5 p-2">Our family houses are designed with modern living in mind. These homes offer a perfect balance of style, functionality, and affordability, making them ideal for growing families. We pay special attention to detail to ensure that our family homes are not only beautiful but also practical and comfortable.</p>
@@ -75,7 +75,7 @@ export default function Developments() {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
-              <h2>
+              <h2 id="luxury-homes">
                 Luxury<span className="text-teal-600"> Homes</span>
               </h2>
               <p className="md:p-5 p-2">We specialize in creating luxurious homes that offer the ultimate in comfort and sophistication. Our luxury houses are designed to meet the highest standards of quality and elegance, providing a perfect sanctuary for those who appreciate the finer things in life.</p>
@@ -113,7 +113,7 @@ export default function Developments() {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
-              <h2>
+              <h2 id="bespoke-homes">
                 Bespoke<span className="text-teal-600"> Homes</span>
               </h2>
               <p className="md:p-5 p-2">For clients who have a specific vision for their dream home, we offer bespoke construction services. We work closely with you from the initial concept through to the final finishing touches, ensuring that every aspect of your home is tailored to your unique needs and preferences.</p>

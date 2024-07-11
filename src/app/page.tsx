@@ -124,24 +124,38 @@ export default function Home() {
                 />
               </div>
               <div className="col-span-1 w-full bg-[url('/images/car.webp')] bg-cover bg-no-repeat bg-center min-h-fit ">
-                <div className="bg-[#131224D9] h-full p-10">
-                  <h6 className="text-white mb-5">Luxury Homes</h6>
-                  <p className="text-white mb-5">Experience the pinnacle of luxury living with our exquisitely designed and meticulously  crafted homes. Perfect for those seeking the ultimate in comfort and elegance.</p>
-                  <Image src="/images/button.svg" alt="link icon" width={70} height={50} />
+                <div className="bg-[#131224D9] min-h-h-full p-10 flex flex-col justify-between h-full">
+                  <div>
+                    <h6 className="text-white mb-5">Family Homes</h6>
+                    <p className="text-white mb-5">Affordable yet stylish, our family homes are designed with modern living in mind. These houses provide a perfect balance of functionality and beauty for growing families.</p>
+                  </div>
+                  <a href="https://amchenryconstructions.com#family-homes" className="self-center mt-auto">
+                    <img src="/images/button.svg" alt="link icon" width="70" height="50" />
+                  </a>
                 </div>
               </div>
+
               <div className="col-span-1 w-full bg-[url('/images/living-room.webp')] bg-cover bg-no-repeat bg-center min-h-fit ">
-                <div className="bg-[#149696D9] h-full p-10">
-                  <h6 className="text-white mb-5">Luxury Homes</h6>
-                  <p className="text-white mb-5">Experience the pinnacle of luxury living with our exquisitely designed and meticulously  crafted homes. Perfect for those seeking the ultimate in comfort and elegance.</p>
-                  <Image src="/images/button.svg" alt="link icon" width={70} height={50} />
+                <div className="bg-[#149696D9] min-h-h-full p-10 flex flex-col justify-between h-full">
+                  <div>
+                    <h6 className="text-white mb-5">Luxury Homes</h6>
+                    <p className="text-white mb-5">Experience the pinnacle of luxury living with our exquisitely designed and meticulously crafted homes. Perfect for those seeking the ultimate in comfort and elegance.</p>
+                  </div>
+                  <a href="https://amchenryconstructions.com#family-homes" className="self-center mt-auto">
+                    <img src="/images/button.svg" alt="link icon" width="70" height="50" />
+                  </a>
                 </div>
               </div>
+
               <div className="col-span-1 w-full bg-[url('/images/car.webp')] bg-cover bg-no-repeat bg-center min-h-fit ">
-                <div className="bg-[#131224D9] h-full p-10">
-                  <h6 className="text-white mb-5">Luxury Homes</h6>
-                  <p className="text-white mb-5">Experience the pinnacle of luxury living with our exquisitely designed and meticulously  crafted homes. Perfect for those seeking the ultimate in comfort and elegance.</p>
-                  <Image src="/images/button.svg" alt="link icon" width={70} height={50} />
+                <div className="bg-[#131224D9] min-h-h-full p-10 flex flex-col justify-between h-full">
+                  <div>
+                    <h6 className="text-white mb-5">Bespoke Homes</h6>
+                    <p className="text-white mb-5">Do you have a specific vision for your dream home? We offer bespoke construction services, working closely with you to create a home that reflects your unique style and requirements.</p>
+                  </div>
+                  <a href="https://amchenryconstructions.com#bespoke-homes" className="self-center mt-auto">
+                    <img src="/images/button.svg" alt="link icon" width="70" height="50" />
+                  </a>
                 </div>
               </div>
             </div>

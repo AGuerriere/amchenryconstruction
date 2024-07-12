@@ -53,7 +53,7 @@ export default function Developments() {
               </div>
             </div>
  */}
-            <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2 mt-10">
+            <div className="w-full flex flex-col justify-center md:text-center lg:p-5 md:p-3 mb-5 mt-10">
               <h2 id="family-homes">
                 Family<span className="text-teal-600"> Homes</span>
               </h2>
@@ -71,7 +71,7 @@ export default function Developments() {
                 />
               </Link>
             </div>
-            <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
+            <div className="w-full flex flex-col justify-center md:text-center lg:p-5 md:p-3 mb-5">
               <h2 id="luxury-homes">
                 Luxury<span className="text-teal-600"> Homes</span>
               </h2>
@@ -97,7 +97,7 @@ export default function Developments() {
                 />
               </Link>
             </div>
-            <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
+            <div className="w-full flex flex-col justify-center md:text-center lg:p-5 md:p-3 mb-5">
               <h2 id="bespoke-homes">
                 Bespoke<span className="text-teal-600"> Homes</span>
               </h2>

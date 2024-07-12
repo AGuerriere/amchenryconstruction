@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Developments() {
   return (
@@ -120,6 +121,7 @@ export default function Developments() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-2 lg:gap-10">
               {/* card */}
+              <Link href="dunamallaght-road">
               <div className="">
                 <div className="h-[350px] bg-[url('/images/projects/dunamallaght_road1/28.webp')] bg-cover bg-no-repeat bg-center flex items-end">
                   <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
@@ -134,6 +136,7 @@ export default function Developments() {
                   <span className="font-bold text-gray-900">Description: </span> Finished to the absolute highest standards, this luxury home on Dunamallaght Road offers exquisite design and top-tier craftsmanship. Every detail has been meticulously planned to provide an unparalleled living experience.
                 </div>
               </div>
+              </Link>
             </div>
           </main>
         </div>

@@ -25,7 +25,6 @@ h1 {
 
 h2 {
   color: #000;
-  font-family: Avenir;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -37,7 +36,6 @@ h2 {
 h5 {
   color: #000;
   /* SUBT Large */
-  font-family: Avenir;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -49,7 +47,6 @@ h5 {
 h6 {
   color: #000;
   /* SUBT1 Med */
-  font-family: Avenir;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;

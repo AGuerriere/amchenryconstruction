@@ -58,22 +58,25 @@ export default function Developments() {
               </h2>
               <p className="md:p-5 p-2">Our family houses are designed with modern living in mind. These homes offer a perfect balance of style, functionality, and affordability, making them ideal for growing families. We pay special attention to detail to ensure that our family homes are not only beautiful but also practical and comfortable.</p>
             </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-2 lg:gap-10">
               {/* card */}
-              <div className="">
-                <div className="h-[350px] bg-[url('/images/projects/mill_st/7.webp')] bg-cover bg-no-repeat bg-center flex items-end">
-                  <div className="w-full h-[50px] bg-[#139FD3CC] flex p-2 justify-start items-center">
-                    <p className="text-white">In Construction - 2 Left</p>
+              <Link href="mill-st">
+                <div className="">
+                  <div className="h-[350px] bg-[url('/images/projects/mill_st/7.webp')] bg-cover bg-no-repeat bg-center flex items-end">
+                    <div className="w-full h-[50px] bg-[#139FD3CC] flex p-2 justify-start items-center">
+                      <p className="text-white">In Construction - 2 Left</p>
+                    </div>
+                  </div>
+                  <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
+                    Mill Street, Ballycastle,
+                  </div>
+                  <p><span className="font-bold text-gray-900">Location: </span>Mill St, Ballycastle, Co. Antrim</p>
+                  <div className="justify-center mb-10 mt-5 w-80 max-w-full">
+                    <span className="font-bold text-gray-900">Description: </span> Located in the heart of Ballycastle, this charming development features a limited number of family homes, with only 2 houses left starting at £325,000. These homes offer modern living areas, high-quality finishes, and convenient access to local amenities.
                   </div>
                 </div>
-                <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
-                  Mill Street, Ballycastle,
-                </div>
-                <p><span className="font-bold text-gray-900">Location: </span>Mill St, Ballycastle, Co. Antrim</p>
-                <div className="justify-center mb-10 mt-5 w-80 max-w-full">
-                  <span className="font-bold text-gray-900">Description: </span> Located in the heart of Ballycastle, this charming development features a limited number of family homes, with only 2 houses left starting at £325,000. These homes offer modern living areas, high-quality finishes, and convenient access to local amenities.
-                </div>
-              </div>
+              </Link>
             </div>
             <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
               <h2 id="luxury-homes">
@@ -83,35 +86,39 @@ export default function Developments() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-2 lg:gap-10">
               {/* card */}
-              <div className="">
-                <div className="h-[350px] bg-[url('/images/projects/dunamallaght_park/1.webp')] bg-cover bg-no-repeat bg-center flex items-end">
-                  <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
-                    <p className="text-white">Completed - Sold Out</p>
+              <Link href="dunamallaght-park">
+                <div className="">
+                  <div className="h-[350px] bg-[url('/images/projects/dunamallaght_park/1.webp')] bg-cover bg-no-repeat bg-center flex items-end">
+                    <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
+                      <p className="text-white">Completed - Sold Out</p>
+                    </div>
+                  </div>
+                  <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
+                    Dunamallaght Park, Ballycastle,
+                  </div>
+                  <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Park, Ballycastle, Co. Antrim</p>
+                  <div className="justify-center mb-10 mt-5 w-80 max-w-full">
+                    <span className="font-bold text-gray-900">Description: </span> This luxury property in Dunamallaght Park boasts contemporary architecture and spacious interiors. Designed for those who appreciate the finer things in life, this home offers a perfect blend of comfort and elegance.
                   </div>
                 </div>
-                <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
-                  Dunamallaght Park, Ballycastle,
-                </div>
-                <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Park, Ballycastle, Co. Antrim</p>
-                <div className="justify-center mb-10 mt-5 w-80 max-w-full">
-                  <span className="font-bold text-gray-900">Description: </span> This luxury property in Dunamallaght Park boasts contemporary architecture and spacious interiors. Designed for those who appreciate the finer things in life, this home offers a perfect blend of comfort and elegance.
-                </div>
-              </div>
+              </Link>
               {/* card */}
-              <div className="">
-                <div className="h-[350px] bg-[url('/images/projects/dunamallaght_road2/3.webp')] bg-cover bg-no-repeat bg-center flex items-end">
-                  <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
-                    <p className="text-white">Completed - Sold Out</p>
+              <Link href="dunamallaght-road2">
+                <div className="">
+                  <div className="h-[350px] bg-[url('/images/projects/dunamallaght_road2/3.webp')] bg-cover bg-no-repeat bg-center flex items-end">
+                    <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
+                      <p className="text-white">Completed - Sold Out</p>
+                    </div>
+                  </div>
+                  <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
+                    Dunamallaght Road, Ballycastle,
+                  </div>
+                  <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Road, Ballycastle, Co. Antrim</p>
+                  <div className="justify-center mb-10 mt-5 w-80 max-w-full">
+                    <span className="font-bold text-gray-900">Description: </span> This luxury home on Dunamallaght Road is crafted to the highest standards, featuring exceptional design and superior craftsmanship. Every detail has been carefully considered to offer an unmatched living experience.
                   </div>
                 </div>
-                <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
-                  Dunamallaght Road, Ballycastle,
-                </div>
-                <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Road, Ballycastle, Co. Antrim</p>
-                <div className="justify-center mb-10 mt-5 w-80 max-w-full">
-                  <span className="font-bold text-gray-900">Description: </span> Finished to the absolute highest standards, this luxury home on Dunamallaght Road offers exquisite design and top-tier craftsmanship. Every detail has been meticulously planned to provide an unparalleled living experience.
-                </div>
-              </div>
+              </Link>
             </div>
             <div className="w-full flex flex-col justify-center text-center lg:p-5 md:p-3 p2">
               <h2 id="bespoke-homes">
@@ -122,20 +129,20 @@ export default function Developments() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-2 lg:gap-10">
               {/* card */}
               <Link href="dunamallaght-road">
-              <div className="">
-                <div className="h-[350px] bg-[url('/images/projects/dunamallaght_road1/28.webp')] bg-cover bg-no-repeat bg-center flex items-end">
-                  <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
-                    <p className="text-white">Completed - Sold Out</p>
+                <div className="">
+                  <div className="h-[350px] bg-[url('/images/projects/dunamallaght_road1/28.webp')] bg-cover bg-no-repeat bg-center flex items-end">
+                    <div className="w-full h-[50px] bg-[#FFFF007F] flex p-2 justify-start items-center">
+                      <p className="text-white">Completed - Sold Out</p>
+                    </div>
+                  </div>
+                  <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
+                    Dunamallaght Road, Ballycastle, Co. Antrim
+                  </div>
+                  <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Road, Ballycastle, Co. Antrim</p>
+                  <div className="justify-center mb-10 mt-5 w-80 max-w-full">
+                    <span className="font-bold text-gray-900">Description: </span> Finished to the absolute highest standards, this luxury home on Dunamallaght Road offers exquisite design and top-tier craftsmanship. Every detail has been meticulously planned to provide an unparalleled living experience.
                   </div>
                 </div>
-                <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
-                  Dunamallaght Road, Ballycastle, Co. Antrim
-                </div>
-                <p><span className="font-bold text-gray-900">Location: </span>Dunamallaght Road, Ballycastle, Co. Antrim</p>
-                <div className="justify-center mb-10 mt-5 w-80 max-w-full">
-                  <span className="font-bold text-gray-900">Description: </span> Finished to the absolute highest standards, this luxury home on Dunamallaght Road offers exquisite design and top-tier craftsmanship. Every detail has been meticulously planned to provide an unparalleled living experience.
-                </div>
-              </div>
               </Link>
             </div>
           </main>

@@ -4,12 +4,12 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer className="bg-[#131224] p-10">
-      <div className="flex flex-col md:flex-row mb-16">
+      <div className="flex flex-col md:flex-row mb-8">
         <div className="md:w-1/2">
           <h5 className="text-white">Building Dreams, <span className="text-teal-600">One Brick at a time</span></h5>
         </div>
         <div className="flex md:justify-end md:w-1/2">
-          <button className="md:w-[250px] text-white bg-[#149696] p-5 h-fit">Contact Us <Image src="/images/right-arrow.svg" alt="link icon" width={20} height={15} className="inline" /></button>
+          <Link href="/contact-us"><button className="md:w-[250px] text-white bg-[#149696] p-5 h-fit">Contact Us <Image src="/images/right-arrow.svg" alt="link icon" width={20} height={15} className="inline" /></button></Link>
         </div>
       </div>
       <div className="flex flex-col md:flex-row">
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div className="flex w-[80px] justify-between mt-5 mb-5">
             <Image src="/images/instagram.webp" alt="NHBC" width={20} height={20} />
-            <Image src="/images/facebook.webp" alt="NHBC" width={20} height={20} />
+            <a href="https://www.facebook.com/people/A-McHenry-Construction/61559734334065/"><Image src="/images/facebook.webp" alt="NHBC" width={20} height={20} /></a>
           </div>
         </div>
         <div className="flex md:justify-end md:w-1/2">
@@ -37,7 +37,7 @@ export default function Footer() {
             <Link href="/"><li>Home</li></Link>
             <Link href="/about"><li>About Us</li></Link>
             <Link href="/developments"><li>Developments</li></Link>
-            <Link href="/contacts"><li>Contact Us</li></Link>
+            <Link href="/contact-us"><li>Contact Us</li></Link>
           </ul>
         </div>
       </div>

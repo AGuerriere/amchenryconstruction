@@ -32,7 +32,7 @@ export default function DunamallaghtRoad2() {
   return (
     <>
       <Navbar />
-      <Header white_text="Dunamallaght" black_text="Park" img="projects/dunamallaght_park/1" />
+      <Header white_text="Dunamallaght" black_text="Road" img="projects/dunamallaght_road2/3" />
       <div className="flex items-center justify-center ml-5 mr-5">
         <div className="w-full max-w-[1600px] items-center justify-center">
           <main>

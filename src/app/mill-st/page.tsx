@@ -6,15 +6,7 @@ import Link from "next/link"
 import Lightbox from "@/components/Lightbox"
 
 const images = [
-  '/images/projects/mill_st/concepts/1.webp',
-  '/images/projects/mill_st/concepts/2.webp',
-  '/images/projects/mill_st/concepts/3.webp',
-  '/images/projects/mill_st/concepts/4.webp',
-  '/images/projects/mill_st/concepts/5.webp',
-  '/images/projects/mill_st/concepts/6.webp',
-  '/images/projects/mill_st/concepts/7.webp',
-  '/images/projects/mill_st/concepts/8.webp',
-  '/images/projects/mill_st/concepts/9.webp',
+
   '/images/projects/mill_st/1.webp',
   '/images/projects/mill_st/2.webp',
   '/images/projects/mill_st/3.webp',
@@ -52,13 +44,22 @@ const images = [
   '/images/projects/mill_st/35.webp',
   '/images/projects/mill_st/36.webp',
   '/images/projects/mill_st/37.webp',
+  '/images/projects/mill_st/concepts/1.webp',
+  '/images/projects/mill_st/concepts/2.webp',
+  '/images/projects/mill_st/concepts/3.webp',
+  '/images/projects/mill_st/concepts/4.webp',
+  '/images/projects/mill_st/concepts/5.webp',
+  '/images/projects/mill_st/concepts/6.webp',
+  '/images/projects/mill_st/concepts/7.webp',
+  '/images/projects/mill_st/concepts/8.webp',
+  '/images/projects/mill_st/concepts/9.webp',
 ];
 
 export default function MillSt() {
   return (
     <>
       <Navbar />
-      <Header white_text="Dunamallaght" black_text="Park" img="projects/dunamallaght_park/1" />
+      <Header white_text="Mill" black_text="Street" img="projects/mill_st/25" />
       <div className="flex items-center justify-center ml-5 mr-5">
         <div className="w-full max-w-[1600px] items-center justify-center">
           <main>

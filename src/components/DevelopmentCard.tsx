@@ -12,7 +12,9 @@ const DevelopmentCard: React.FC<DevelopmentCardProps> = ({ imagePath, noticeColo
         className="h-[350px] bg-cover bg-no-repeat bg-center flex items-end"
         style={{ backgroundImage: `url(${imagePath})` }}
       >
-        <div className={`w-full h-[50px] bg-[${noticeColor}] flex p-2 justify-start items-center`}>
+        <div 
+        className={`w-full h-[50px] flex p-2 justify-start items-center`}
+        style={{ backgroundColor: noticeColor}}>
           <p className="text-white">{noticeContent}</p>
         </div>
       </div>

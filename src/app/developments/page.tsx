@@ -68,6 +68,7 @@ export default function Developments() {
                   noticeColor="#139FD3CC"
                   noticeContent="In Construction - 2 Left"
                   location="Mill St, Ballycastle, Co. Antrim"
+                  title="Mill St, Ballycastle"
                 />
               </Link>
             </div>
@@ -85,6 +86,7 @@ export default function Developments() {
                   noticeColor="#FFFF007F"
                   noticeContent="Completed - Sold Out"
                   location="Dunamallaght Park, Ballycastle, Co. Antrim"
+                  title="Dunamallght Park, Ballycastle"
                 />
               </Link>
               {/* card */}
@@ -94,6 +96,7 @@ export default function Developments() {
                   noticeColor="#FFFF007F"
                   noticeContent="Completed - Sold Out"
                   location="Dunamallaght Road, Ballycastle, Co. Antrim"
+                  title="Dunamallaght Road, Ballycastle"
                 />
               </Link>
             </div>
@@ -111,6 +114,7 @@ export default function Developments() {
                   noticeColor="#FFFF007F"
                   noticeContent="Completed - Sold Out"
                   location="Dunamallaght Road, Ballycastle, Co. Antrim"
+                  title="Dunamallaght Road, Ballycastle"
                 />
               </Link>
             </div>

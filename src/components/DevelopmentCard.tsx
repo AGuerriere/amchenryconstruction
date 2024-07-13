@@ -3,9 +3,10 @@ interface DevelopmentCardProps {
   noticeColor: string;
   noticeContent: string;
   location: string;
+  title: string;
 }
 
-const DevelopmentCard: React.FC<DevelopmentCardProps> = ({ imagePath, noticeColor, noticeContent, location }) => {
+const DevelopmentCard: React.FC<DevelopmentCardProps> = ({ imagePath, noticeColor, noticeContent, location, title }) => {
   return (
     <div className="mb-10">
       <div
@@ -19,7 +20,7 @@ const DevelopmentCard: React.FC<DevelopmentCardProps> = ({ imagePath, noticeColo
         </div>
       </div>
       <div className="justify-center mt-8 text-2xl font-medium leading-10 text-[#24A8D9]">
-        Mill Street, Ballycastle,
+        {title}
       </div>
       <p><span className="font-bold text-gray-900">Location: </span>{location}</p>
     </div>

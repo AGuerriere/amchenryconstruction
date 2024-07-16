@@ -32,8 +32,10 @@ const Lightbox: FC<LightboxProps> = ({ images }) => {
   };
 
   const goToPreviousBatch = () => {
-    const newStartIndex = (startIndex - imagesPerPage < 0) ? images.length - imagesPerPage : startIndex - imagesPerPage;
-    setStartIndex(newStartIndex);
+    if (startIndex - imagesPerPage >= 0) {
+      const newStartIndex = startIndex - imagesPerPage;
+      setStartIndex(newStartIndex);
+    }
   };
 
   const goToNextBatch = () => {
@@ -41,14 +43,18 @@ const Lightbox: FC<LightboxProps> = ({ images }) => {
     setStartIndex(newStartIndex);
   };
 
+  const handleLightboxClick = (e: React.MouseEvent) => {
+    if (e.target === e.currentTarget) {
+      setSelectedImage(null);
+    }
+  };
+
   const currentImages = images.slice(startIndex, startIndex + imagesPerPage);
+  const endIndex = Math.min(startIndex + imagesPerPage, images.length);
+  const isLastBatch = startIndex + imagesPerPage >= images.length;
 
   return (
     <div className="container">
-      <div className="flex justify-between mb-4">
-        <button onClick={goToPreviousBatch} className="btn btn-primary">Previous 10 Images</button>
-        <button onClick={goToNextBatch} className="btn btn-primary">Next 10 Images</button>
-      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {currentImages.map((src, index) => (
           <div key={index} className="cursor-pointer" onClick={() => openImage(index)}>
@@ -57,7 +63,7 @@ const Lightbox: FC<LightboxProps> = ({ images }) => {
         ))}
       </div>
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50" onClick={handleLightboxClick}>
           <div className="relative">
             <button onClick={() => setSelectedImage(null)} className="absolute top-0 right-0 m-2">
               <Image src="/images/x.svg" alt="Close" width={50} height={50} />
@@ -72,6 +78,15 @@ const Lightbox: FC<LightboxProps> = ({ images }) => {
           </div>
         </div>
       )}
+      <div className="flex justify-between mb-4 items-center mt-5">
+        {startIndex > 0 && (
+          <button onClick={goToPreviousBatch} className="btn btn-primary">Previous 10 Images</button>
+        )}
+        <span className="text-center flex-grow">{startIndex + 1}-{endIndex} of {images.length}</span>
+        {!isLastBatch && (
+          <button onClick={goToNextBatch} className="btn btn-primary">Next 10 Images</button>
+        )}
+      </div>
     </div>
   );
 };

@@ -46,7 +46,6 @@ const images = [
   '/images/projects/dunamallaght_road1/38.webp',
   '/images/projects/dunamallaght_road1/39.webp',
   '/images/projects/dunamallaght_road1/40.webp',
-  '/images/projects/dunamallaght_road1/41.webp',
   '/images/projects/dunamallaght_road1/42.webp',
   '/images/projects/dunamallaght_road1/43.webp',
   '/images/projects/dunamallaght_road1/44.webp',

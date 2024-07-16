@@ -13,9 +13,9 @@ export default function Home() {
         <div className='bg-header-gradient h-full flex'>
           <div className="flex items-center justify-center ml-5 mr-5 w-full">
             <div className='flex flex-col justify-center w-full max-w-[1600px]'>
-              <GradientTitle whiteText="Welcome to " blackText="A. McHenry Construction" />
+              <GradientTitle whiteText="Welcome to " blackText="A McHenry Construction" />
               <h1 className='pt-7 md:w-4/5 lg:w-3/5 text-white'>
-                Build Dreams,<br></br>One Brick at a Time
+                Building Dreams,<br></br>One Brick at a Time
               </h1>
             </div>
           </div>
@@ -30,18 +30,18 @@ export default function Home() {
               <h2 className="md:col-span-2 lg:col-span-1 text-gray-900 tracking-wide mb-5 overflow-hidden text-ellipsis">About Us</h2>
               <div className="lg:col-span-2">
                 <p className="mb-5">
-                  At A. McHenry Construction, we have been transforming visions into reality for over 40  years. Based in the heart of Ballycastle, Co.Antrim, our family-run company, founded  by Alastair McHenry in the 80s, continues to uphold a tradition of excellence under the  leadership of his sons, Shane and Mark.
+                At A McHenry Construction, we have been transforming visions into reality for over 40 years. Based in the heart of Ballycastle, Co. Antrim, our family-run company, founded by Alastair McHenry in the 80s, continues to uphold a tradition of excellence under the leadership of his sons, Shane and Mark.
                 </p>
                 <p>
-                  We specialise in crafting Luxury Houses, Family  Houses, and bespoke homes, ensuring that every project is completed with the highest quality and finest finishing.
+                As expert house builders, we specialize in crafting Luxury Houses, Family Houses, and bespoke homes, ensuring that every project is completed with the highest quality and finest finishing.
                 </p>
               </div>
               <div className="lg:col-span-2">
                 <p className="text-teal-600 mb-5">
-                  From our humble beginnings, we have grown into a trusted name in the construction industry. Our reputation is built on a commitment to quality, attention to detail, and a passion for  delivering homes that exceed expectations.
+                From our humble beginnings, we have grown into a trusted name in the construction industry. Our reputation is built on a commitment to quality, attention to detail, and a passion for delivering homes that exceed expectations.
                 </p>
                 <p>
-                  Whether you are looking for your first home, a  luxurious retreat, or a bespoke property tailored to your needs, A McHenry Construction is  here to bring your vision to life.
+                Whether you are looking for your first home, a luxurious retreat, or a bespoke property tailored to your needs, A McHenry Construction is here to bring your vision to life. We are proud members of NHBC, dedicated to maintaining the highest standards in the house building industry.
                 </p>
                 <div className="flex justify-start mt-10">
                   <Image src="/images/nhbc.webp" alt="NHBC" width={100} height={50} />
@@ -60,7 +60,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <div className="w-full relative h-[430px]">
                   <Image
-                    src="/images/workers.webp"
+                    src="/images/projects/dunamallaght_road1/36.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by A McHenry Constructions"
@@ -97,7 +97,7 @@ export default function Home() {
               <div className="md:w-1/3">
                 <div className="w-full relative h-[430px]">
                   <Image
-                    src="/images/family.webp"
+                    src="/images/projects/dunamallaght_road1/48.webp"
                     fill
                     sizes="100%"
                     alt="Picture of a house in Ballycastle built by A McHenry Constructions"

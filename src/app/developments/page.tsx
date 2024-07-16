@@ -13,46 +13,6 @@ export default function Developments() {
       <div className="flex items-center justify-center ml-5 mr-5">
         <div className="w-full max-w-[1600px] items-center justify-center">
           <main className="mb-10">
-            {/* 
-            <div className="flex flex-col md:flex-row justify-between md:gap-2 lg:gap-10 mb-10">
-
-              <div className="group md:w-1/3 bg-[url('/images/projects/dunamallaght_park/5.webp')] bg-cover bg-no-repeat bg-center">
-                <div className="w-full h-[330px] hover:bg-green-gradient flex justify-center items-center text-center">
-                  <div className="hidden group-hover:flex flex-col justify-center items-center">
-                    <p className="text-white">Explore our</p>
-                    <p className="text-white">Luxury Homes</p>
-                    <div className="border-2 w-fit flex">
-                      <Image src="/images/x.svg" alt="link icon" width={50} height={50} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="group md:w-1/3 bg-[url('/images/projects/dunamallaght_road1/61.webp')] bg-cover bg-no-repeat bg-center">
-                <div className="w-full h-[330px] hover:bg-green-gradient flex justify-center items-center text-center">
-                  <div className="hidden group-hover:flex flex-col justify-center items-center">
-                    <p className="text-white">Explore our</p>
-                    <p className="text-white">Bespoke Homes</p>
-                    <div className="border-2 w-fit flex">
-                      <Image src="/images/x.svg" alt="link icon" width={50} height={50} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="group md:w-1/3 bg-[url('/images/projects/dunamallaght_road2/14.webp')] bg-cover bg-no-repeat bg-center">
-                <div className="w-full h-[330px] hover:bg-green-gradient flex justify-center items-center text-center">
-                  <div className="hidden group-hover:flex flex-col justify-center items-center">
-                    <p className="text-white">Explore our</p>
-                    <p className="text-white">Family Homes</p>
-                    <div className="border-2 w-fit flex">
-                      <Image src="/images/x.svg" alt="link icon" width={50} height={50} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
- */}
             <div className="w-full flex flex-col justify-center md:text-center lg:p-5 md:p-3 mb-5 mt-10">
               <h2 id="family-homes">
                 Family<span className="text-teal-600"> Homes</span>
@@ -64,7 +24,7 @@ export default function Developments() {
               {/* card */}
               <Link href="mill-st">
                 <DevelopmentCard
-                  imagePath="/images/projects/mill_st/7.webp"
+                  imagePath="/images/MillSt-cover.webp"
                   noticeColor="#139FD3CC"
                   noticeContent="In Construction - 2 Left"
                   location="Mill St, Ballycastle, Co. Antrim"

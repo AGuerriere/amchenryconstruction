@@ -6,7 +6,18 @@ import Link from "next/link"
 import Lightbox from "@/components/Lightbox"
 
 const images = [
-
+  '/images/projects/mill_st/38.webp',
+  '/images/projects/mill_st/39.webp',
+  '/images/projects/mill_st/40.webp',
+  '/images/projects/mill_st/41.webp',
+  '/images/projects/mill_st/42.webp',
+  '/images/projects/mill_st/43.webp',
+  '/images/projects/mill_st/44.webp',
+  '/images/projects/mill_st/45.webp',
+  '/images/projects/mill_st/46.webp',
+  '/images/projects/mill_st/47.webp',
+  '/images/projects/mill_st/48.webp',
+  '/images/projects/mill_st/49.webp',
   '/images/projects/mill_st/1.webp',
   '/images/projects/mill_st/2.webp',
   '/images/projects/mill_st/3.webp',

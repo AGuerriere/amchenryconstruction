@@ -30,7 +30,7 @@ export default function Home() {
               <h2 className="md:col-span-2 lg:col-span-1 text-gray-900 tracking-wide mb-5 overflow-hidden text-ellipsis">About Us</h2>
               <div className="lg:col-span-2">
                 <p className="mb-5">
-                  At A McHenry Construction, we have been transforming visions into reality for over 40 years. Based in the heart of Ballycastle, Co. Antrim, our family-run company, founded by Alastair McHenry in the 80s, continues to uphold a tradition of excellence under the leadership of his sons, Shane and Mark.
+                  At A McHenry Construction, we have been transforming visions into reality for over 40 years. Based in the heart of Ballycastle, Co. Antrim, our family-run company of house builders, founded by Alastair McHenry in the 80s, continues to uphold a tradition of excellence under the leadership of his sons, Shane and Mark. 
                 </p>
                 <p>
                   As expert house builders, we specialize in crafting Luxury Houses, Family Houses, and bespoke homes, ensuring that every project is completed with the highest quality and finest finishing.
@@ -38,7 +38,7 @@ export default function Home() {
               </div>
               <div className="lg:col-span-2">
                 <p className="text-teal-600 mb-5">
-                  From our humble beginnings, we have grown into a trusted name in the construction industry. Our reputation is built on a commitment to quality, attention to detail, and a passion for delivering homes that exceed expectations.
+                  From our humble beginnings, we have grown into a trusted name in the house building and construction industry. Our reputation is built on a commitment to quality, attention to detail, and a passion for delivering homes that exceed expectations.
                 </p>
                 <p>
                   Whether you are looking for your first home, a luxurious retreat, or a bespoke property tailored to your needs, A McHenry Construction is here to bring your vision to life. We are proud members of NHBC, dedicated to maintaining the highest standards in the house building industry.

@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   title: 'A McHenry Construction',
   description: 'A McHenry Construction, is a construction company based in Ballycastle. Building outstanding new developments for over 40 years.',
   keywords: [
-    'Construction Company', 'Building Services', 'Construction Services', 'Residential Construction', 'Commercial Construction',
+    'House Builders', 'Home Builders','Construction Company', 'Building Services', 'Construction Services', 'Residential Construction', 'Commercial Construction',
     'Property Development', 'Construction Projects', 'Ballycastle Construction', 'Northern Ireland Builders', 'Construction Management',
-    'Renovation Services', 'Building Renovation', 'Home Extensions', 'New Build Homes', 'New Builds Ballycastle', 'house builders', 'Civil Engineering', 'Architectural Services',
+    'Renovation Services', 'Building Renovation', 'Home Extensions', 'New Build Homes', 'New Builds Ballycastle', 'Civil Engineering', 'Architectural Services',
     'Project Management', 'Sustainable Construction', 'Construction Consultancy', 'Ballycastle', 'North Coast', 'Causeway Coast',
     'Antrim Coast', 'Northern Ireland', 'NI Construction', 'Construction Expertise', 'Property Maintenance', 'Custom Builds',
     'Eco-Friendly Building', 'Land Development', 'Construction Planning', 'Building Regulations', 'Construction Safety'

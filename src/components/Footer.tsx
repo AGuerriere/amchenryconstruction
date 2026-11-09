@@ -31,6 +31,12 @@ export default function Footer() {
             <Image src="/images/instagram.webp" alt="NHBC" width={20} height={20} />
             <a href="https://www.facebook.com/people/A-McHenry-Construction/61559734334065/"><Image src="/images/facebook.webp" alt="NHBC" width={20} height={20} /></a>
           </div>
+          <div className="flex items-center gap-4 mt-8 mb-4 text-xs text-white/60">
+            <span>Built by</span>
+            <a href="https://mindtechnica.com" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/mindtechnica-logo.webp" alt="MindTechnica" width={96} height={40} />
+            </a>
+          </div>
         </div>
         <div className="flex md:justify-end md:w-1/2">
           <ul className="md:w-[250px]">
